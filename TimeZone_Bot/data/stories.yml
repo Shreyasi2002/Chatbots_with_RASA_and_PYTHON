@@ -2,33 +2,54 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: find_time happy path
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_ask_mood
   - intent: mood_great
   - action: utter_happy
+  - intent: find_time
+  - action: utter_ask_location
+  - intent: city_info
+  - action: utter_finding_time_zone
+  - intent: thanks
+  - action: utter_welcome
+  - action: utter_goodbye
 
-- story: sad path 1
+
+- story: find_time sad path 1
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_ask_mood
   - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
+  - intent: find_time
+  - action: utter_ask_location
+  - intent: city_info
+  - action: utter_finding_time_zone
+  - intent: thanks
+  - action: utter_welcome
+  - action: utter_goodbye
 
-- story: sad path 2
+- story: find_time sad path 2
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_ask_mood
   - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
+  - intent: find_time
+  - action: utter_ask_location
+  - intent: city_info
+  - action: utter_finding_time_zone
+  - intent: thanks
+  - action: utter_welcome
   - action: utter_goodbye
 
-- story: asking for time
-  steps:
-  - intent: 
