@@ -12,6 +12,11 @@ intents:
 entities:
   - city
 
+slots:
+  city:
+    type: text
+
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -25,6 +30,7 @@ responses:
 
   utter_happy:
   - text: "Great, carry on!"
+  - text: "I am happy, I could be of help! "
 
   utter_goodbye:
   - text: "Bye"
@@ -39,7 +45,10 @@ responses:
   - text: "May I know your location? "
 
   utter_finding_time_zone:
-  - text: "Just give me a second, I am looking it up ;) "
+  - text: "Just give me a second, I am looking up the time zone of {city}"
+
+  utter_sorry:
+  - text: "OOPS! Sorryyyy"
 
 session_config:
   session_expiration_time: 60
