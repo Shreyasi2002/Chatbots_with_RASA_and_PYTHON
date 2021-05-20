@@ -118,1608 +118,1608 @@ nlu:
 
 - intent: city_info
   examples: |
-    - [A Coruña]
-    - [Aachen]
-    - [Aarhus]
-    - [Abbeville]
-    - [Aberdeen (UK)]
-    - [Aberdeen (South Dakota)]
-    - [Aberdeen (Washington)]
-    - [Abilene]
-    - [Abu Dhabi]
-    - [Acapulco]
-    - [Adelaide]
-    - [Adelboden]
-    - [Agadir]
-    - [Agde]
-    - [Agen]
-    - [Agios Nikolaos]
-    - [Agra]
-    - [Agrigento]
-    - [Agropoli]
-    - [Ahmedabad]
-    - [Aigues-Mortes]
-    - [Aix-en-Provence]
-    - [Aix-les-Bains]
-    - [Ajaccio]
-    - [Ajman]
-    - [Akron]
-    - [Al Ain]
-    - [Alanya]
-    - [Albacete]
-    - [Albany]
-    - [Albenga]
-    - [Albi]
-    - [Albufeira]
-    - [Albuquerque]
-    - [Alcudia]
-    - [Alessandria]
-    - [Ålesund]
-    - [Alexandria]
-    - [Algeciras]
-    - [Alghero]
-    - [Alicante]
-    - [Alkmaar]
-    - [Allentown]
-    - [Almaty]
-    - [Alpe d'Huez]
-    - [Alta Badia]
-    - [Altea]
-    - [Altoona]
-    - [Amalfi]
-    - [Amarillo]
-    - [Amersfoort]
-    - [Amiens]
-    - [Amsterdam]
-    - [Anaheim]
-    - [Anchorage]
-    - [Ancona]
-    - [Andalo]
-    - [Andermatt]
-    - [Andorra la Vella]
-    - [Andria]
-    - [Angers]
-    - [Angoulême]
-    - [Ankara]
-    - [Ann Arbor]
-    - [Annapolis]
-    - [Annecy]
-    - [Antalya]
-    - [Antananarivo]
-    - [Antibes]
-    - [Antwerp]
-    - [Anzio]
-    - [Ao Nang]
-    - [Aosta]
-    - [Apeldoorn]
-    - [Apia]
-    - [Appleton]
-    - [Aracaju]
-    - [Arcachon]
-    - [Arenzano]
-    - [Arezzo]
-    - [Argostoli]
-    - [Arica]
-    - [Arles]
-    - [Arlington (Virginia)]
-    - [Arlington (Texas)]
-    - [Armagh]
-    - [Arnhem]
-    - [Arosa]
-    - [Arras]
-    - [Arrecife]
-    - [Artà]
-    - [Asbury Park]
-    - [Ascoli Piceno]
-    - [Ascona]
-    - [Ashdod]
-    - [Ashkelon]
-    - [Aspen]
-    - [Asti]
-    - [Astoria]
-    - [Athens]
-    - [Athlone]
-    - [Atlanta]
-    - [Atlantic City]
-    - [Auckland]
-    - [Augsburg]
-    - [Augusta (Georgia)]
-    - [Augusta (Maine)]
-    - [Aurora (Colorado)]
-    - [Aurora (Illinois)]
-    - [Austin]
-    - [Auxerre]
-    - [Avalon (New Jersey)]
-    - [Avalon (California)]
-    - [Aveiro]
-    - [Avellino]
-    - [Avignon]
-    - [Avoriaz]
-    - [Axamer Lizum]
-    - [Ayia Napa]
-    - [Bad Gastein]
-    - [Bad Hofgastein]
-    - [Baden]
-    - [Baiona]
-    - [Bakersfield]
-    - [Baltimore]
-    - [Bandar Seri Begawan]
-    - [Bandol]
-    - [Bangalore]
-    - [Bangkok]
-    - [Bangor]
-    - [Bangui]
-    - [Bar]
-    - [Bar Harbor]
-    - [Barcelona]
-    - [Bari]
-    - [Barletta]
-    - [Barstow]
-    - [Basel]
-    - [Basseterre]
-    - [Basse-Terre]
-    - [Bastia]
-    - [Bath]
-    - [Baton Rouge]
-    - [Batumi]
-    - [Bayonne]
-    - [Beaulieu-sur-Mer]
-    - [Beaumont]
-    - [Beaune]
-    - [Beersheba]
-    - [Beijing]
-    - [Beirut]
-    - [Belfast]
-    - [Belfort]
-    - [Belgrade]
-    - [Belize City]
-    - [Bellingham]
-    - [Bellinzona]
-    - [Belluno]
-    - [Belmopan]
-    - [Belo Horizonte]
-    - [Bemidji]
-    - [Benalmadena]
-    - [Bend]
-    - [Bendigo]
-    - [Benevento]
-    - [Benicàssim]
-    - [Benidorm]
-    - [Bergamo]
-    - [Bergen]
-    - [Bergerac]
-    - [Berkeley]
-    - [Berlin]
-    - [Bern]
-    - [Besançon]
-    - [Bethlehem]
-    - [Beverly Hills]
-    - [Béziers]
-    - [Biarritz]
-    - [Biel/Bienne]
-    - [Bielefeld]
-    - [Biella]
-    - [Bilbao]
-    - [Billings]
-    - [Biloxi]
-    - [Birmingham (UK)]
-    - [Birmingham (U.S.)]
-    - [Bismarck]
-    - [Bissau]
-    - [Blanes]
-    - [Bled]
-    - [Blois]
-    - [Bloomington]
-    - [Blumenau]
-    - [Boca Chica]
-    - [Boca Raton]
-    - [Bochum]
-    - [Bodrum]
-    - [Boise]
-    - [Bologna]
-    - [Bolzano]
-    - [Bonifacio]
-    - [Bonn]
-    - [Bordeaux]
-    - [Bordighera]
-    - [Bormio]
-    - [Boston]
-    - [Boulder]
-    - [Boulogne-sur-Mer]
-    - [Bourges]
-    - [Bowling Green]
-    - [Boynton Beach]
-    - [Bozeman]
-    - [Bradenton]
-    - [Bradford]
-    - [Braga]
-    - [Brampton]
-    - [Brasilia]
-    - [Bratislava]
-    - [Braunschweig]
-    - [Breda]
-    - [Bregenz]
-    - [Brela]
-    - [Bremen]
-    - [Bremerhaven]
-    - [Brescia]
-    - [Brest]
-    - [Bridgeport]
-    - [Bridgetown]
-    - [Brighton]
-    - [Brindisi]
-    - [Brisbane]
-    - [Bristol]
-    - [Brixen]
-    - [Brixental]
-    - [Brno]
-    - [Brookings]
-    - [Brownsville]
-    - [Bruges]
-    - [Brussels]
-    - [Bucharest]
-    - [Budapest]
-    - [Budva]
-    - [Buenos Aires]
-    - [Buffalo]
-    - [Bujumbura]
-    - [Burgas]
-    - [Burlington]
-    - [Butte]
-    - [Cabo San Lucas]
-    - [Cádiz]
-    - [Caen]
-    - [Cagliari]
-    - [Cagnes-sur-Mer]
-    - [Cairns]
-    - [Cala Bona]
-    - [Cala d'Or]
-    - [Cala Millor]
-    - [Cala Ratjada]
-    - [Calais]
-    - [Calella]
-    - [Calgary]
-    - [Caloundra]
-    - [Calp]
-    - [Caltanissetta]
-    - [Calvi]
-    - [Cambridge (UK)]
-    - [Cambridge (U.S.)]
-    - [Cambrils]
-    - [Camden]
-    - [Campinas]
-    - [Campobasso]
-    - [Can Picafort]
-    - [Canazei]
-    - [Canberra]
-    - [Cancun]
-    - [Cannes]
-    - [Cannon Beach]
-    - [Canterbury]
-    - [Canton]
-    - [Canyamel]
-    - [Capdepera]
-    - [Cape Canaveral]
-    - [Cape Coral]
-    - [Cape May]
-    - [Cape Town]
-    - [Carbonia]
-    - [Carcassonne]
-    - [Cardiff]
-    - [Carlisle]
-    - [Carlsbad]
-    - [Carmel-by-the-Sea]
-    - [Carpi]
-    - [Carpinteria]
-    - [Carrara]
-    - [Carson City]
-    - [Cartagena]
-    - [Casablanca]
-    - [Caserta]
-    - [Casper]
-    - [Cassis]
-    - [Castelrotto]
-    - [Castletown]
-    - [Castries]
-    - [Catania]
-    - [Catanzaro]
-    - [Caxias do Sul]
-    - [Cedar Rapids]
-    - [Cervinia]
-    - [Cesena]
-    - [Český Krumlov]
-    - [Çeşme]
-    - [Chamonix]
-    - [Chandler]
-    - [Chania]
-    - [Charleroi]
-    - [Charleston (West Virginia)]
-    - [Charleston (South Carolina)]
-    - [Charlestown]
-    - [Charlotte]
-    - [Charlotte Amalie]
-    - [Charlottetown]
-    - [Chartres]
-    - [Chattanooga]
-    - [Chelmsford]
-    - [Chemnitz]
-    - [Chennai]
-    - [Cherbourg]
-    - [Chesapeake]
-    - [Chester]
-    - [Cheyenne]
-    - [Chiang Mai]
-    - [Chiang Rai]
-    - [Chiavari]
-    - [Chicago]
-    - [Chichester]
-    - [Chieti]
-    - [Chincoteague]
-    - [Chioggia]
-    - [Chios]
-    - [Chișinău]
-    - [Chonburi]
-    - [Christchurch]
-    - [Christiansted]
-    - [Chula Vista]
-    - [Chur]
-    - [Cincinnati]
-    - [Ciutadella de Menorca]
-    - [Civitavecchia]
-    - [Clarksville]
-    - [Clearwater]
-    - [Clermont-Ferrand]
-    - [Cleveland]
-    - [Cockburn Town]
-    - [Cocoa Beach]
-    - [Coconut Creek]
-    - [Coimbra]
-    - [Collioure]
-    - [Colmar]
-    - [Cologne]
-    - [Colombo]
-    - [Colorado Springs]
-    - [Columbia (South Carolina)]
-    - [Columbia (Missouri)]
-    - [Columbus]
-    - [Como]
-    - [Concepción]
-    - [Concord]
-    - [Conil de la Frontera]
-    - [Conway]
-    - [Copenhagen]
-    - [Coral Springs]
-    - [Córdoba (Argentina)]
-    - [Córdoba (Spain)]
-    - [Corfu]
-    - [Corinth]
-    - [Cork]
-    - [Corpus Christi]
-    - [Corralejo]
-    - [Cortina d'Ampezzo]
-    - [Cosenza]
-    - [Costa Adeje]
-    - [Courchevel]
-    - [Courmayeur]
-    - [Coventry]
-    - [Covington]
-    - [Coyhaique]
-    - [Cozumel]
-    - [Crans-Montana]
-    - [Cremona]
-    - [Crotone]
-    - [Cruz Bay]
-    - [Cuneo]
-    - [Da Nang]
-    - [Dakar]
-    - [Dallas]
-    - [Dana Point]
-    - [Dar es Salaam]
-    - [Darmstadt]
-    - [Darwin]
-    - [Daugavpils]
-    - [Dauphin Island]
-    - [Davenport]
-    - [Davos]
-    - [Dayton]
-    - [Daytona Beach]
-    - [Deauville]
-    - [Decatur]
-    - [Deerfield Beach]
-    - [Del Mar]
-    - [Delft]
-    - [Delhi]
-    - [Delray Beach]
-    - [Den Bosch]
-    - [Denia]
-    - [Denton]
-    - [Denver]
-    - [Derby]
-    - [Derry]
-    - [Des Moines]
-    - [Detroit]
-    - [Didim]
-    - [Dieppe]
-    - [Dijon]
-    - [Douala]
-    - [Dodoma]
-    - [Doha]
-    - [Dolomiti Superski]
-    - [Dordrecht]
-    - [Dorfgastein]
-    - [Dortmund]
-    - [Dothan]
-    - [Douglas]
-    - [Dover (Delaware)]
-    - [Dover (New Hampshire)]
-    - [Dresden]
-    - [Dubai]
-    - [Dublin]
-    - [Dubrovnik]
-    - [Duisburg]
-    - [Duluth]
-    - [Dundalk]
-    - [Dundee]
-    - [Dunedin]
-    - [Dunkirk]
-    - [Durham (UK)]
-    - [Durham (U.S.)]
-    - [Düsseldorf]
-    - [Eastbourne]
-    - [Eau Claire]
-    - [Edgartown]
-    - [Edinburgh]
-    - [Edmonton]
-    - [Eilat]
-    - [Eindhoven]
-    - [El Paso]
-    - [Elche]
-    - [Elizabeth]
-    - [Elko]
-    - [Ellmau]
-    - [Elm]
-    - [Empuriabrava]
-    - [Encinitas]
-    - [Engelberg]
-    - [Enna]
-    - [Enschede]
-    - [Épinal]
-    - [Erfurt]
-    - [Erie]
-    - [Erlangen]
-    - [Esbjerg]
-    - [Espace Killy]
-    - [Essaouira]
-    - [Essen]
-    - [Estepona]
-    - [Eugene]
-    - [Eureka]
-    - [Evansville]
-    - [Everett]
-    - [Exeter]
-    - [Èze]
-    - [Faenza]
-    - [Fairbanks]
-    - [Falmouth]
-    - [Famagusta]
-    - [Fano]
-    - [Fargo]
-    - [Faro]
-    - [Fayetteville (North Carolina)]
-    - [Fayetteville (Arkansas)]
-    - [Fermo]
-    - [Fernandina Beach]
-    - [Ferrara]
-    - [Fethiye]
-    - [Fez]
-    - [Fieberbrunn]
-    - [Filzmoos]
-    - [Finale Ligure]
-    - [Fiumicino]
-    - [Flagstaff]
-    - [Flaine]
-    - [Flint]
-    - [Florence]
-    - [Florence (Alabama)]
-    - [Foggia]
-    - [Folgarida]
-    - [Fontana]
-    - [Forlì]
-    - [Fort Collins]
-    - [Fort Lauderdale]
-    - [Fort Myers]
-    - [Fort Smith]
-    - [Fort Wayne]
-    - [Fort Worth]
-    - [Fort-de-France]
-    - [Forte dei Marmi]
-    - [Foz do Iguaçu]
-    - [Frankfort]
-    - [Frankfurt am Main]
-    - [Franklin]
-    - [Frederick]
-    - [Fredericton]
-    - [Frederiksted]
-    - [Freeport]
-    - [Freiburg]
-    - [Fremont]
-    - [Fresno]
-    - [Fribourg]
-    - [Frosinone]
-    - [Fuengirola]
-    - [Fujairah]
-    - [Fukuoka]
-    - [Funchal]
-    - [Gainesville]
-    - [Galtür]
-    - [Galway]
-    - [Garden Grove]
-    - [Garland]
-    - [Gastonia]
-    - [Gatineau]
-    - [Gdansk]
-    - [Gdynia]
-    - [Geelong]
-    - [Gelsenkirchen]
-    - [Geneva]
-    - [Genoa]
-    - [George Town (Cayman Islands)]
-    - [George Town (Malaysia)]
-    - [Ghent]
-    - [Gijón]
-    - [Gilbert]
-    - [Girona]
-    - [Gitega]
-    - [Glasgow]
-    - [Glendale (Arizona)]
-    - [Glendale (California)]
-    - [Gloucester]
-    - [Gold Coast]
-    - [Gorizia]
-    - [Dachstein-West]
-    - [Gothenburg]
-    - [Göttingen]
-    - [Gouda]
-    - [Granada]
-    - [Grand Forks]
-    - [Grand Island]
-    - [Grand Junction]
-    - [Grand Prairie]
-    - [Grand Rapids]
-    - [Granville]
-    - [Grasse]
-    - [Graz]
-    - [Great Falls]
-    - [Greeley]
-    - [Green Bay]
-    - [Greensboro]
-    - [Greenville NC]
-    - [Greenville SC]
-    - [Grenoble]
-    - [Grindelwald]
-    - [Groningen]
-    - [Grossarl]
-    - [Grosseto]
-    - [Gstaad]
-    - [Guadalajara]
-    - [Guangzhou]
-    - [Guimarães]
-    - [Gulf Shores]
-    - [Gulfport]
-    - [Gustavia]
-    - [Haarlem]
-    - [Haifa]
-    - [Halifax]
-    - [Halle]
-    - [Hamburg]
-    - [Hamilton (Canada)]
-    - [Hamilton (New Zealand)]
-    - [Hamilton (Bermuda)]
-    - [Hampton]
-    - [Hanford]
-    - [Hangzhou]
-    - [Hannover]
-    - [Hanoi]
-    - [Harrisburg]
-    - [Hartford]
-    - [Hasselt]
-    - [Hastings]
-    - [Hat Yai]
-    - [Hattiesburg]
-    - [Havana]
-    - [Heidelberg]
-    - [Heilbronn]
-    - [Heiligenblut]
-    - [Helena]
-    - [Helsinki]
-    - [Henderson]
-    - [Heraklion]
-    - [Herceg Novi]
-    - [Hereford]
-    - [Hermosa Beach]
-    - [Hervey Bay]
-    - [Hialeah]
-    - [Hillsboro]
-    - [Hinterglemm]
-    - [Hinterstoder]
-    - [Hiroshima]
-    - [Hoi An]
-    - [Hobart]
-    - [Ho Chi Minh City]
-    - [Hollywood (Florida)]
-    - [Honfleur]
-    - [Hong Kong]
-    - [Honiara]
-    - [Honolulu]
-    - [Horsens]
-    - [Hot Springs]
-    - [Houston]
-    - [Hua Hin]
-    - [Hue]
-    - [Huntington]
-    - [Huntington Beach]
-    - [Huntsville]
-    - [Hvar]
-    - [Hyères]
-    - [Ibiza Town]
-    - [Imola]
-    - [Imperia]
-    - [Inca]
-    - [Indianapolis]
-    - [Ingolstadt]
-    - [Innsbruck]
-    - [Interlaken]
-    - [Inverness]
-    - [Ioannina]
-    - [Irvine]
-    - [Irving]
-    - [Ischgl]
-    - [Isernia]
-    - [Lahore]
-    - [Islamorada]
-    - [Istanbul]
-    - [İzmir]
-    - [Izola]
-    - [Jackson]
-    - [Jackson (Tennessee)]
-    - [Jacksonville]
-    - [Jaipur]
-    - [Jefferson City]
-    - [Jena]
-    - [Jerez de la Frontera]
-    - [Jersey City]
-    - [Jerusalem]
-    - [Johannesburg]
-    - [Johnson City]
-    - [Joinville]
-    - [Jonesboro]
-    - [Juan-les-Pins]
-    - [Juiz de Fora]
-    - [Juneau]
-    - [Jungfrau]
-    - [Jupiter]
-    - [Jūrmala]
-    - [Kalamata]
-    - [Kalamazoo]
-    - [Kampala]
-    - [Kanchanaburi]
-    - [Kansas City]
-    - [Kansas City (Kansas)]
-    - [Kappl]
-    - [Kaprun]
-    - [Islamabad]
-    - [Karlovy Vary]
-    - [Karlsruhe]
-    - [Kassel]
-    - [Kastoria]
-    - [Kathmandu]
-    - [Kaunas]
-    - [Kavala]
-    - [Kearney]
-    - [Keene]
-    - [Kemer]
-    - [Kenosha]
-    - [Key Largo]
-    - [Key West]
-    - [Khao Lak]
-    - [Kiel]
-    - [Kilkenny]
-    - [Kingston]
-    - [Kingston upon Hull]
-    - [Kingstown]
-    - [Kissimmee]
-    - [Kitzbühel]
-    - [Klagenfurt]
-    - [Klaipėda]
-    - [Knoxville]
-    - [Kobe]
-    - [Koblenz]
-    - [Kolding]
-    - [Kolkata]
-    - [Komotini]
-    - [Koper]
-    - [Kos]
-    - [Košice]
-    - [Kotor]
-    - [Krabi]
-    - [Krakow]
-    - [Kralendijk]
-    - [Krefeld]
-    - [Kuah]
-    - [Kuala Lumpur]
-    - [Kuşadası]
-    - [Kutná Hora]
-    - [Kyoto]
-    - [Kyrenia]
-    - [La Ciotat]
-    - [La Clusaz]
-    - [La Laguna]
-    - [La Maddalena]
-    - [La Manga]
-    - [La Plagne]
-    - [La Plata]
-    - [La Rochelle]
-    - [La Romana]
-    - [La Serena]
-    - [La Spezia]
-    - [La Thuile]
-    - [Laax]
-    - [Lafayette (Indiana)]
-    - [Lafayette (Louisiana)]
-    - [Lagos]
-    - [Laguna Beach]
-    - [Karachi]
-    - [Lakeland]
-    - [Lalitpur]
-    - [Lamezia Terme]
-    - [Lancaster]
-    - [Lancaster (U.S.)]
-    - [Lansing]
-    - [L'Aquila]
-    - [Laredo]
-    - [Largo]
-    - [Larnaca]
-    - [Las Cruces]
-    - [Las Palmas]
-    - [Las Vegas]
-    - [Latina]
-    - [Lausanne]
-    - [Laval]
-    - [Lawton]
-    - [Layton]
-    - [Le Havre]
-    - [Le Lavandou]
-    - [Le Mans]
-    - [Lecce]
-    - [Lecco]
-    - [Lech]
-    - [Leeds]
-    - [Legnano]
-    - [Leicester]
-    - [Leiden]
-    - [Leipzig]
-    - [Leogang]
-    - [Les Arcs]
-    - [Les Deux Alpes]
-    - [Les Gets]
-    - [Les Houches]
-    - [Les Menuires]
-    - [Leuven]
-    - [Lexington]
-    - [Liberec]
-    - [Libreville]
-    - [Lichfield]
-    - [Liège]
-    - [Lienz]
-    - [Liepāja]
-    - [Lille]
-    - [Limassol]
-    - [Limerick]
-    - [Limoges]
-    - [Lincoln]
-    - [Lincoln]
-    - [Lindos]
-    - [Linz]
-    - [Lisbon]
-    - [Lisburn]
-    - [Little Rock]
-    - [Liverpool]
-    - [Livigno]
-    - [Livorno]
-    - [Ljubljana]
-    - [Lloret de Mar]
-    - [Loano]
-    - [Locarno]
-    - [Lodi]
-    - [Lodz]
-    - [Logan]
-    - [Logroño]
-    - [London (Canada)]
-    - [London (UK)]
-    - [Londrina]
-    - [Long Beach]
-    - [Long Beach (New York)]
-    - [Long Branch]
-    - [Longview (Texas)]
-    - [Longview (Washington)]
-    - [Lorain]
-    - [Los Alamos]
-    - [Los Angeles]
-    - [Los Cabos]
-    - [Los Cristianos]
-    - [Louisville]
-    - [Lourdes]
-    - [Loutraki]
-    - [Louvain-la-Neuve]
-    - [Lowell]
-    - [Luanda]
-    - [Lubbock]
-    - [Lübeck]
-    - [Lublin]
-    - [Lucca]
-    - [Lucerne]
-    - [Lugano]
-    - [Lund]
-    - [Luxembourg]
-    - [Lyon]
-    - [Maastricht]
-    - [Macerata]
-    - [Macon]
-    - [Madera]
-    - [Madison]
-    - [Madonna di Campiglio]
-    - [Madrid]
-    - [Magaluf]
-    - [Magdeburg]
-    - [Mahón]
-    - [Mainz]
-    - [Makarska]
-    - [Malaga]
-    - [Malia]
-    - [Malibu]
-    - [Malmö]
-    - [Manacor]
-    - [Manchester (UK)]
-    - [Manchester (U.S.)]
-    - [Manhattan Beach]
-    - [Mannheim]
-    - [Manosque]
-    - [Mantua]
-    - [Maputo]
-    - [Mar del Plata]
-    - [Marathon]
-    - [Marbella]
-    - [Maria Alm]
-    - [Maribor]
-    - [Marigot]
-    - [Markham]
-    - [Marmaris]
-    - [Maroochydore]
-    - [Marquette]
-    - [Marrakesh]
-    - [Marsala]
-    - [Marseille]
-    - [Martigues]
-    - [Maspalomas]
-    - [Massa]
-    - [Matera]
-    - [Mayrhofen]
-    - [Mazara del Vallo]
-    - [McKinney]
-    - [Mechelen]
-    - [Medford]
-    - [Megève]
-    - [Melbourne (Australia)]
-    - [Melbourne (U.S.)]
-    - [Memphis]
-    - [Menton]
-    - [Merano]
-    - [Merced]
-    - [Meribel]
-    - [Mérida]
-    - [Meridian]
-    - [Mesa]
-    - [Messina]
-    - [Mestre]
-    - [Metz]
-    - [Mexico City]
-    - [Miami]
-    - [Middelburg]
-    - [Midland]
-    - [Mijas]
-    - [Milan]
-    - [Milford]
-    - [Millau]
-    - [Milwaukee]
-    - [Mindelo]
-    - [Minneapolis]
-    - [Minot]
-    - [Miramar]
-    - [Mishawaka]
-    - [Mississauga]
-    - [Missoula]
-    - [Moab]
-    - [Mobile]
-    - [Modena]
-    - [Modesto]
-    - [Modica]
-    - [Moena]
-    - [Mogi das Cruzes]
-    - [Mombasa]
-    - [Monaco City]
-    - [Monrovia]
-    - [Mons]
-    - [Monte Carlo]
-    - [Monte Rosa]
-    - [Montego Bay]
-    - [Montepulciano]
-    - [Monterey]
-    - [Montgomery]
-    - [Montluçon]
-    - [Montpelier]
-    - [Montpellier]
-    - [Montreal]
-    - [Montreux]
-    - [Monza]
-    - [Moraira]
-    - [Moreno Valley]
-    - [Morgantown]
-    - [Morzine]
-    - [Moscow]
-    - [Mount Vernon]
-    - [Mountain View]
-    - [Moutier]
-    - [Mulhouse]
-    - [Mumbai]
-    - [Munich]
-    - [Münster]
-    - [Murcia]
-    - [Murfreesboro]
-    - [Murter]
-    - [Mykonos]
-    - [Mytilene]
-    - [Nafplio]
-    - [Nagoya]
-    - [Nags Head]
-    - [Nairobi]
-    - [Namur]
-    - [Nancy]
-    - [Nantes]
-    - [Napa]
-    - [Naples (Italy)]
-    - [Naples (U.S.)]
-    - [Narbonne]
-    - [Narva]
-    - [Nashua]
-    - [Nashville]
-    - [Nassau]
-    - [Naxos]
-    - [Nazareth]
-    - [N'Djamena]
-    - [Negril]
-    - [Nelson]
-    - [Nerja]
-    - [Netanya]
-    - [Nevers]
-    - [New Haven]
-    - [New London]
-    - [New Orleans]
-    - [New Smyrna Beach]
-    - [New York City]
-    - [Newark]
-    - [Newcastle (Australia)]
-    - [Newcastle (UK)]
-    - [Newport (UK)]
-    - [Newport (Rhode Island)]
-    - [Newport (Vermont)]
-    - [Newport Beach]
-    - [Newport News]
-    - [Newry]
-    - [Nha Trang]
-    - [Niagara Falls]
-    - [Nice]
-    - [Nicosia]
-    - [Nijmegen]
-    - [Nimes]
-    - [Niort]
-    - [Noosa Heads]
-    - [Norfolk]
-    - [Normal]
-    - [Norman]
-    - [North Las Vegas]
-    - [North Port]
-    - [Norwalk]
-    - [Norwich]
-    - [Nottingham]
-    - [Novara]
-    - [Novigrad]
-    - [Nuoro]
-    - [Nürnberg]
-    - [Nur-Sultan]
-    - [Nyon]
-    - [Oakland]
-    - [Oaxaca]
-    - [Obergurgl]
-    - [Oberhausen]
-    - [Ocala]
-    - [Ocean City]
-    - [Ocean Grove]
-    - [Oceanside]
-    - [Ocho Rios]
-    - [Odense]
-    - [Odessa]
-    - [Ogden]
-    - [Oia]
-    - [Oklahoma City]
-    - [Olbia]
-    - [Oldenburg]
-    - [Olomouc]
-    - [Olympia]
-    - [Omaha]
-    - [Opatija]
-    - [Orange Beach]
-    - [Oranjestad (Aruba)]
-    - [Oranjestad (Sint Eustatius)]
-    - [Orem]
-    - [Oristano]
-    - [Orlando]
-    - [Orléans]
-    - [Ortisei]
-    - [Osaka]
-    - [Oshkosh]
-    - [Oslo]
-    - [Osnabrück]
-    - [Ostrava]
-    - [Ottawa]
-    - [Ouagadougou]
-    - [Oulu]
-    - [Overland Park]
-    - [Oviedo]
-    - [Owensboro]
-    - [Oxford]
-    - [Oxnard]
-    - [Paderborn
-    - [Padova
-    - [Palanga
-    - [Palavas-les-Flots
-    - [Palermo
-    - [Palm Bay
-    - [Palm Beach
-    - [Palm Springs
-    - [Palma de Mallorca
-    - [Palma Nova
-    - [Palmetto
-    - [Palo Alto
-    - [Pamplona
-    - [Panama City (U.S.)]
-    - [Paphos
-    - [Paradiski
-    - [Paralia
-    - [Parikia
-    - [Paris
-    - [Parkersburg
-    - [Parma
-    - [Pärnu
-    - [Pasadena
-    - [Passo del Tonale
-    - [Passo Rolle
-    - [Paterson
-    - [Patras
-    - [Pattaya
-    - [Pau
-    - [Pavia
-    - [Peel
-    - [Peguera
-    - [Pembroke Pines
-    - [Pensacola
-    - [Peoria
-    - [Perast
-    - [Périgueux
-    - [Perpignan
-    - [Perros-Guirec
-    - [Perth (Australia)]
-    - [Perth (UK)]
-    - [Perugia
-    - [Pesaro
-    - [Pescara
-    - [Pescasseroli
-    - [Petah Tikva
-    - [Peterborough
-    - [Petrovac
-    - [Pforzheim
-    - [Phang Nga
-    - [Phetchabun
-    - [Philadelphia
-    - [Philipsburg
-    - [Phoenix
-    - [Phuket City
-    - [Piacenza
-    - [Pierre
-    - [Pine Bluff
-    - [Piraeus
-    - [Piran
-    - [Pisa
-    - [Pistoia
-    - [Pittsburgh
-    - [Placencia
-    - [Plano
-    - [Playa Blanca
-    - [Playa de las Américas
-    - [Playa del Carmen
-    - [Plovdiv
-    - [Plymouth
-    - [Plzeň
-    - [Podgorica
-    - [Pointe-à-Pitre
-    - [Poitiers
-    - [Pollença
-    - [Pompano Beach
-    - [Pontevedra
-    - [Pordenone
-    - [Poreč
-    - [Port Angeles
-    - [Port Charlotte
-    - [Port Louis
-    - [Port of Spain
-    - [Port St. Lucie
-    - [Port Townsend
-    - [Port-au-Prince
-    - [Portimão
-    - [Portland (Oregon)]
-    - [Portland (Maine)]
-    - [Porto
-    - [Porto Cervo
-    - [Porto Cristo
-    - [Porto Torres
-    - [Portocolom
-    - [Portofino
-    - [Portorož
-    - [Porto-Novo
-    - [Porto-Vecchio
-    - [Portsmouth (UK)]
-    - [Portsmouth (U.S.)]
-    - [Positano
-    - [Potenza
-    - [Potsdam
-    - [Poznan
-    - [Pozzuoli
-    - [Prague
-    - [Praia
-    - [Praia da Rocha
-    - [Prato
-    - [Preston
-    - [Pretoria
-    - [Propriano
-    - [Protaras
-    - [Providence
-    - [Provo
-    - [Pueblo
-    - [Puerto de la Cruz
-    - [Puerto Plata
-    - [Puerto Rico de Gran Canaria
-    - [Puerto Vallarta
-    - [Pula
-    - [Punta Arenas
-    - [Punta Cana
-    - [Punta Gorda
-    - [Pyeongchang
-    - [Quarteira
-    - [Quebec
-    - [Quimper
-    - [Rabat
-    - [Racine
-    - [Ragusa
-    - [Railay Beach
-    - [Raleigh
-    - [Ramsey
-    - [Rancho Cucamonga
-    - [Randers
-    - [Rapallo
-    - [Rapid City
-    - [Ras al-Khaimah
-    - [Ravello
-    - [Ravenna
-    - [Rayong
-    - [Reading
-    - [Redding
-    - [Redondo Beach
-    - [Regensburg
-    - [Reggio Calabria
-    - [Reggio Emilia
-    - [Regina
-    - [Rehovot
-    - [Reims
-    - [Rennes
-    - [Reno
-    - [Rethymno
-    - [Reus
-    - [Reutlingen
-    - [Reykjavik
-    - [Rhodes
-    - [Richmond
-    - [Rieti
-    - [Riga
-    - [Rijeka
-    - [Rimini
-    - [Rio de Janeiro
-    - [Riomaggiore
-    - [Rishon LeZion
-    - [Riverside
-    - [Riviera Maya
-    - [Road Town
-    - [Roanoke
-    - [Rochester (Minnesota)]
-    - [Rochester (New York)]
-    - [Rock Hill
-    - [Rockford
-    - [Rockville
-    - [Rodez
-    - [Rogers
-    - [Rome
-    - [Ronda
-    - [Rosario
-    - [Roseau
-    - [Roskilde
-    - [Rostock
-    - [Roswell
-    - [Rotterdam
-    - [Roubaix
-    - [Rouen
-    - [Rovigo
-    - [Rovinj
-    - [Rutland
-    - [Sa Coma
-    - [Saalbach
-    - [Saarbrücken
-    - [Saas-Fee
-    - [Sacramento
-    - [Saint Paul
-    - [Saint Petersburg
-    - [Saint-Brieuc
-    - [Sainte-Maxime
-    - [Saint-Étienne
-    - [Saint-Jean-Cap-Ferrat
-    - [Saint-Malo
-    - [Saint-Tropez
-    - [Salamanca
-    - [Salem (Oregon)]
-    - [Salem (Massachusetts)]
-    - [Salerno
-    - [Salinas
-    - [Salisbury
-    - [Salou
-    - [Salt Lake City
-    - [Salta
-    - [Salvador
-    - [Salzburg
-    - [Samaná
-    - [San Angelo
-    - [San Antonio
-    - [San Bernardino
-    - [San Clemente
-    - [San Diego
-    - [San Francisco
-    - [San Jose
-    - [San Juan
-    - [San Marino
-    - [San Mateo
-    - [San Pedro
-    - [San Pedro de Atacama
-    - [San Rafael
-    - [San Sebastián
-    - [Sanford
-    - [Sanremo
-    - [Sant Antoni de Portmany
-    - [Santa Ana
-    - [Santa Barbara
-    - [Santa Clara
-    - [Santa Clarita
-    - [Santa Cruz
-    - [Santa Cruz de Tenerife
-    - [Santa Eulària des Riu
-    - [Santa Fe
-    - [Santa Margherita Ligure
-    - [Santa Maria
-    - [Santa Monica
-    - [Santa Pola
-    - [Santa Ponsa
-    - [Santa Rosa
-    - [Santander
-    - [Santiago (Chile)]
-    - [Santiago (Dominican Rep.)]
-    - [Santiago de Compostela
-    - [Santo Domingo
-    - [Sao Paulo
-    - [Sapporo
-    - [Sarajevo
-    - [Sarasota
-    - [Saratoga Springs
-    - [Saskatoon
-    - [Sassari
-    - [Saumur
-    - [Savannah
-    - [Savona
-    - [Schaffhausen
-    - [Schenectady
-    - [Schladming
-    - [Scottsdale
-    - [Scranton
-    - [Sea Isle City
-    - [Seal Beach
-    - [Seaside
-    - [Seattle
-    - [Sedona
-    - [Seefeld
-    - [Segovia
-    - [Seoul
-    - [Serre Chevalier
-    - [Sète
-    - [Seville
-    - [Shanghai
-    - [Sharjah
-    - [Sheffield
-    - [Shenzhen
-    - [Shreveport
-    - [Šiauliai
-    - [Šibenik
-    - [Side
-    - [Siegen
-    - [Siena
-    - [Singapore
-    - [Sion
-    - [Sioux City
-    - [Sioux Falls
-    - [Sitges
-    - [Skiathos
-    - [Sofia
-    - [Sölden
-    - [Söll
-    - [Soller
-    - [Solothurn
-    - [Sondrio
-    - [Sopot
-    - [Sorocaba
-    - [Sorrento
-    - [South Bend
-    - [Southampton
-    - [Split
-    - [Spokane
-    - [Springdale
-    - [Springfield (Illinois)]
-    - [Springfield (Massachusetts)]
-    - [Springfield (Missouri)]
-    - [Springfield (Oregon)]
-    - [St Albans
-    - [St George's (Bermuda)]
-    - [St. Albans
-    - [St. Anton
-    - [St. Augustine
-    - [St. Cloud
-    - [St. Gallen
-    - [St. George
-    - [St. George's (Grenada)]
-    - [St. John's (Canada)]
-    - [St. John's (Antigua and Barbuda)]
-    - [St. Louis
-    - [St. Moritz
-    - [St. Petersburg (U.S.)]
-    - [Stamford
-    - [Stavanger
-    - [Stillwater
-    - [Stirling
-    - [Stockholm
-    - [Stockton
-    - [Stoke-on-Trent
-    - [Stone Harbor
-    - [Strasbourg
-    - [Stuttgart
-    - [Sukhothai
-    - [Sumter
-    - [Sunderland
-    - [Sunnyvale
-    - [Sunshine Coast
-    - [Superior
-    - [Surrey
-    - [Sveti Stefan
-    - [Swansea
-    - [Sydney
-    - [Syracuse (Italy)]
-    - [Syracuse (U.S.)]
-    - [Szczecin
-    - [Tacoma
-    - [Taipei
-    - [Tallahassee
-    - [Tallinn
-    - [Tampa
-    - [Tampere
-    - [Tamworth
-    - [Tangier
-    - [Taormina
-    - [Taranto
-    - [Tarifa
-    - [Tarragona
-    - [Tartu
-    - [Tauplitz
-    - [Tauranga
-    - [Tavira
-    - [Tbilisi
-    - [Tel Aviv
-    - [Temecula
-    - [Tempe
-    - [Teramo
-    - [Terni
-    - [Texarkana AR
-    - [Texarkana TX
-    - [The Bottom
-    - [The Hague
-    - [The Valley
-    - [The Woodlands
-    - [Thessaloniki
-    - [Tignes
-    - [Tijuana
-    - [Tilburg
-    - [Tinos
-    - [Tivat
-    - [Tivoli
-    - [Tokyo
-    - [Toledo (Spain)]
-    - [Toledo (U.S.)]
-    - [Tooele
-    - [Toowoomba
-    - [Topeka
-    - [Toronto
-    - [Torre del Greco
-    - [Torre del Mar
-    - [Torremolinos
-    - [Torrevieja
-    - [Toruń
-    - [Tossa de Mar
-    - [Toulon
-    - [Toulouse
-    - [Tours
-    - [Townsville
-    - [Trani
-    - [Trapani
-    - [Trento
-    - [Trenton
-    - [Treviso
-    - [Trier
-    - [Trieste
-    - [Trogir
-    - [Tromsø
-    - [Trondheim
-    - [Trouville-sur-Mer
-    - [Troy
-    - [Troyes
-    - [Tucson
-    - [Tui
-    - [Tulsa
-    - [Tulum
-    - [Turin
-    - [Turku
-    - [Tuscaloosa
-    - [Twin Falls
-    - [Two Harbors
-    - [Tybee Island
-    - [Tyler
-    - [Udine
-    - [Udon Thani
-    - [Ukiah
-    - [Ulcinj
-    - [Ulm
-    - [Umag
-    - [Uppsala
-    - [Urbino
-    - [Ushuaia
-    - [Utica
-    - [Utrecht
-    - [Vaduz
-    - [Val d’Isère
-    - [Val di Fassa
-    - [Val Gardena
-    - [Val Thorens
-    - [Valence
-    - [Valencia
-    - [Valladolid
-    - [Valle Isarco
-    - [Valletta
-    - [Valparaíso
-    - [Vancouver (Canada)]
-    - [Vancouver (U.S.)]
-    - [Varazze
-    - [Varese
-    - [Varna
-    - [Vaughan
-    - [Vejle
-    - [Venice (Italy)]
-    - [Venice (U.S.)]
-    - [Ventimiglia
-    - [Ventspils
-    - [Ventura
-    - [Verbania
-    - [Verbier
-    - [Vercelli
-    - [Vero Beach
-    - [Verona
-    - [Versailles
-    - [Vevey
-    - [Viareggio
-    - [Vibo Valentia
-    - [Viborg
-    - [Vicenza
-    - [Vichy
-    - [Victoria
-    - [Vienna
-    - [Vigo
-    - [Vilamoura
-    - [Villach
-    - [Villefranche-sur-Mer
-    - [Vilnius
-    - [Viña del Mar
-    - [Virginia Beach
-    - [Visalia
-    - [Viterbo
-    - [Vitoria-Gasteiz
-    - [Volos
-    - [Vrsar
-    - [Waco
-    - [Wakefield
-    - [Warsaw
-    - [Warth
-    - [Washington D.C.
-    - [Waterford
-    - [Watertown
-    - [Waukegan
-    - [Waukesha
-    - [Wellington (New Zealand)]
-    - [Wellington (U.S.)]
-    - [Wengen
-    - [West Lafayette
-    - [West Palm Beach
-    - [Westendorf
-    - [Westminster
-    - [Weston
-    - [Wheeling
-    - [White Plains
-    - [Wichita
-    - [Wichita Falls
-    - [Wiesbaden
-    - [Wildwood
-    - [Wilkes-Barre
-    - [Willemstad
-    - [Wilmington (Delaware)]
-    - [Wilmington (North Carolina)]
-    - [Winchester
-    - [Windsor
-    - [Winnipeg
-    - [Winston–Salem
-    - [Winterthur
-    - [Wolfsburg
-    - [Wollongong
-    - [Wolverhampton
-    - [Woodburn
-    - [Worcester (UK)]
-    - [Worcester (U.S.)]
-    - [Worthing
-    - [Wroclaw
-    - [Wuppertal
-    - [Würzburg
-    - [Yakima
-    - [Yaoundé
-    - [Yokohama
-    - [Yonkers
-    - [York (UK)]
-    - [York (U.S.)]
-    - [Youngstown
-    - [Yuma
-    - [Zadar
-    - [Zagreb
-    - [Zakopane
-    - [Zanzibar
-    - [Zaragoza
-    - [Zell am See
-    - [Zell am Ziller
-    - [Zermatt
-    - [Zug
-    - [Zurich
-    - [Zwolle
+    - [A Coruña](city)
+    - [Aachen](city)
+    - [Aarhus](city)
+    - [Abbeville](city)
+    - [Aberdeen (UK)](city)
+    - [Aberdeen (South Dakota)](city)
+    - [Aberdeen (Washington)](city)
+    - [Abilene](city)
+    - [Abu Dhabi](city)
+    - [Acapulco](city)
+    - [Adelaide](city)
+    - [Adelboden](city)
+    - [Agadir](city)
+    - [Agde](city)
+    - [Agen](city)
+    - [Agios Nikolaos](city)
+    - [Agra](city)
+    - [Agrigento](city)
+    - [Agropoli](city)
+    - [Ahmedabad](city)
+    - [Aigues-Mortes](city)
+    - [Aix-en-Provence](city)
+    - [Aix-les-Bains](city)
+    - [Ajaccio](city)
+    - [Ajman](city)
+    - [Akron](city)
+    - [Al Ain](city)
+    - [Alanya](city)
+    - [Albacete](city)
+    - [Albany](city)
+    - [Albenga](city)
+    - [Albi](city)
+    - [Albufeira](city)
+    - [Albuquerque](city)
+    - [Alcudia](city)
+    - [Alessandria](city)
+    - [Ålesund](city)
+    - [Alexandria](city)
+    - [Algeciras](city)
+    - [Alghero](city)
+    - [Alicante](city)
+    - [Alkmaar](city)
+    - [Allentown](city)
+    - [Almaty](city)
+    - [Alpe d'Huez](city)
+    - [Alta Badia](city)
+    - [Altea](city)
+    - [Altoona](city)
+    - [Amalfi](city)
+    - [Amarillo](city)
+    - [Amersfoort](city)
+    - [Amiens](city)
+    - [Amsterdam](city)
+    - [Anaheim](city)
+    - [Anchorage](city)
+    - [Ancona](city)
+    - [Andalo](city)
+    - [Andermatt](city)
+    - [Andorra la Vella](city)
+    - [Andria](city)
+    - [Angers](city)
+    - [Angoulême](city)
+    - [Ankara](city)
+    - [Ann Arbor](city)
+    - [Annapolis](city)
+    - [Annecy](city)
+    - [Antalya](city)
+    - [Antananarivo](city)
+    - [Antibes](city)
+    - [Antwerp](city)
+    - [Anzio](city)
+    - [Ao Nang](city)
+    - [Aosta](city)
+    - [Apeldoorn](city)
+    - [Apia](city)
+    - [Appleton](city)
+    - [Aracaju](city)
+    - [Arcachon](city)
+    - [Arenzano](city)
+    - [Arezzo](city)
+    - [Argostoli](city)
+    - [Arica](city)
+    - [Arles](city)
+    - [Arlington (Virginia)](city)
+    - [Arlington (Texas)](city)
+    - [Armagh](city)
+    - [Arnhem](city)
+    - [Arosa](city)
+    - [Arras](city)
+    - [Arrecife](city)
+    - [Artà](city)
+    - [Asbury Park](city)
+    - [Ascoli Piceno](city)
+    - [Ascona](city)
+    - [Ashdod](city)
+    - [Ashkelon](city)
+    - [Aspen](city)
+    - [Asti](city)
+    - [Astoria](city)
+    - [Athens](city)
+    - [Athlone](city)
+    - [Atlanta](city)
+    - [Atlantic City](city)
+    - [Auckland](city)
+    - [Augsburg](city)
+    - [Augusta (Georgia)](city)
+    - [Augusta (Maine)](city)
+    - [Aurora (Colorado)](city)
+    - [Aurora (Illinois)](city)
+    - [Austin](city)
+    - [Auxerre](city)
+    - [Avalon (New Jersey)](city)
+    - [Avalon (California)](city)
+    - [Aveiro](city)
+    - [Avellino](city)
+    - [Avignon](city)
+    - [Avoriaz](city)
+    - [Axamer Lizum](city)
+    - [Ayia Napa](city)
+    - [Bad Gastein](city)
+    - [Bad Hofgastein](city)
+    - [Baden](city)
+    - [Baiona](city)
+    - [Bakersfield](city)
+    - [Baltimore](city)
+    - [Bandar Seri Begawan](city)
+    - [Bandol](city)
+    - [Bangalore](city)
+    - [Bangkok](city)
+    - [Bangor](city)
+    - [Bangui](city)
+    - [Bar](city)
+    - [Bar Harbor](city)
+    - [Barcelona](city)
+    - [Bari](city)
+    - [Barletta](city)
+    - [Barstow](city)
+    - [Basel](city)
+    - [Basseterre](city)
+    - [Basse-Terre](city)
+    - [Bastia](city)
+    - [Bath](city)
+    - [Baton Rouge](city)
+    - [Batumi](city)
+    - [Bayonne](city)
+    - [Beaulieu-sur-Mer](city)
+    - [Beaumont](city)
+    - [Beaune](city)
+    - [Beersheba](city)
+    - [Beijing](city)
+    - [Beirut](city)
+    - [Belfast](city)
+    - [Belfort](city)
+    - [Belgrade](city)
+    - [Belize City](city)
+    - [Bellingham](city)
+    - [Bellinzona](city)
+    - [Belluno](city)
+    - [Belmopan](city)
+    - [Belo Horizonte](city)
+    - [Bemidji](city)
+    - [Benalmadena](city)
+    - [Bend](city)
+    - [Bendigo](city)
+    - [Benevento](city)
+    - [Benicàssim](city)
+    - [Benidorm](city)
+    - [Bergamo](city)
+    - [Bergen](city)
+    - [Bergerac](city)
+    - [Berkeley](city)
+    - [Berlin](city)
+    - [Bern](city)
+    - [Besançon](city)
+    - [Bethlehem](city)
+    - [Beverly Hills](city)
+    - [Béziers](city)
+    - [Biarritz](city)
+    - [Biel/Bienne](city)
+    - [Bielefeld](city)
+    - [Biella](city)
+    - [Bilbao](city)
+    - [Billings](city)
+    - [Biloxi](city)
+    - [Birmingham (UK)](city)
+    - [Birmingham (U.S.)](city)
+    - [Bismarck](city)
+    - [Bissau](city)
+    - [Blanes](city)
+    - [Bled](city)
+    - [Blois](city)
+    - [Bloomington](city)
+    - [Blumenau](city)
+    - [Boca Chica](city)
+    - [Boca Raton](city)
+    - [Bochum](city)
+    - [Bodrum](city)
+    - [Boise](city)
+    - [Bologna](city)
+    - [Bolzano](city)
+    - [Bonifacio](city)
+    - [Bonn](city)
+    - [Bordeaux](city)
+    - [Bordighera](city)
+    - [Bormio](city)
+    - [Boston](city)
+    - [Boulder](city)
+    - [Boulogne-sur-Mer](city)
+    - [Bourges](city)
+    - [Bowling Green](city)
+    - [Boynton Beach](city)
+    - [Bozeman](city)
+    - [Bradenton](city)
+    - [Bradford](city)
+    - [Braga](city)
+    - [Brampton](city)
+    - [Brasilia](city)
+    - [Bratislava](city)
+    - [Braunschweig](city)
+    - [Breda](city)
+    - [Bregenz](city)
+    - [Brela](city)
+    - [Bremen](city)
+    - [Bremerhaven](city)
+    - [Brescia](city)
+    - [Brest](city)
+    - [Bridgeport](city)
+    - [Bridgetown](city)
+    - [Brighton](city)
+    - [Brindisi](city)
+    - [Brisbane](city)
+    - [Bristol](city)
+    - [Brixen](city)
+    - [Brixental](city)
+    - [Brno](city)
+    - [Brookings](city)
+    - [Brownsville](city)
+    - [Bruges](city)
+    - [Brussels](city)
+    - [Bucharest](city)
+    - [Budapest](city)
+    - [Budva](city)
+    - [Buenos Aires](city)
+    - [Buffalo](city)
+    - [Bujumbura](city)
+    - [Burgas](city)
+    - [Burlington](city)
+    - [Butte](city)
+    - [Cabo San Lucas](city)
+    - [Cádiz](city)
+    - [Caen](city)
+    - [Cagliari](city)
+    - [Cagnes-sur-Mer](city)
+    - [Cairns](city)
+    - [Cala Bona](city)
+    - [Cala d'Or](city)
+    - [Cala Millor](city)
+    - [Cala Ratjada](city)
+    - [Calais](city)
+    - [Calella](city)
+    - [Calgary](city)
+    - [Caloundra](city)
+    - [Calp](city)
+    - [Caltanissetta](city)
+    - [Calvi](city)
+    - [Cambridge (UK)](city)
+    - [Cambridge (U.S.)](city)
+    - [Cambrils](city)
+    - [Camden](city)
+    - [Campinas](city)
+    - [Campobasso](city)
+    - [Can Picafort](city)
+    - [Canazei](city)
+    - [Canberra](city)
+    - [Cancun](city)
+    - [Cannes](city)
+    - [Cannon Beach](city)
+    - [Canterbury](city)
+    - [Canton](city)
+    - [Canyamel](city)
+    - [Capdepera](city)
+    - [Cape Canaveral](city)
+    - [Cape Coral](city)
+    - [Cape May](city)
+    - [Cape Town](city)
+    - [Carbonia](city)
+    - [Carcassonne](city)
+    - [Cardiff](city)
+    - [Carlisle](city)
+    - [Carlsbad](city)
+    - [Carmel-by-the-Sea](city)
+    - [Carpi](city)
+    - [Carpinteria](city)
+    - [Carrara](city)
+    - [Carson City](city)
+    - [Cartagena](city)
+    - [Casablanca](city)
+    - [Caserta](city)
+    - [Casper](city)
+    - [Cassis](city)
+    - [Castelrotto](city)
+    - [Castletown](city)
+    - [Castries](city)
+    - [Catania](city)
+    - [Catanzaro](city)
+    - [Caxias do Sul](city)
+    - [Cedar Rapids](city)
+    - [Cervinia](city)
+    - [Cesena](city)
+    - [Český Krumlov](city)
+    - [Çeşme](city)
+    - [Chamonix](city)
+    - [Chandler](city)
+    - [Chania](city)
+    - [Charleroi](city)
+    - [Charleston (West Virginia)](city)
+    - [Charleston (South Carolina)](city)
+    - [Charlestown](city)
+    - [Charlotte](city)
+    - [Charlotte Amalie](city)
+    - [Charlottetown](city)
+    - [Chartres](city)
+    - [Chattanooga](city)
+    - [Chelmsford](city)
+    - [Chemnitz](city)
+    - [Chennai](city)
+    - [Cherbourg](city)
+    - [Chesapeake](city)
+    - [Chester](city)
+    - [Cheyenne](city)
+    - [Chiang Mai](city)
+    - [Chiang Rai](city)
+    - [Chiavari](city)
+    - [Chicago](city)
+    - [Chichester](city)
+    - [Chieti](city)
+    - [Chincoteague](city)
+    - [Chioggia](city)
+    - [Chios](city)
+    - [Chișinău](city)
+    - [Chonburi](city)
+    - [Christchurch](city)
+    - [Christiansted](city)
+    - [Chula Vista](city)
+    - [Chur](city)
+    - [Cincinnati](city)
+    - [Ciutadella de Menorca](city)
+    - [Civitavecchia](city)
+    - [Clarksville](city)
+    - [Clearwater](city)
+    - [Clermont-Ferrand](city)
+    - [Cleveland](city)
+    - [Cockburn Town](city)
+    - [Cocoa Beach](city)
+    - [Coconut Creek](city)
+    - [Coimbra](city)
+    - [Collioure](city)
+    - [Colmar](city)
+    - [Cologne](city)
+    - [Colombo](city)
+    - [Colorado Springs](city)
+    - [Columbia (South Carolina)](city)
+    - [Columbia (Missouri)](city)
+    - [Columbus](city)
+    - [Como](city)
+    - [Concepción](city)
+    - [Concord](city)
+    - [Conil de la Frontera](city)
+    - [Conway](city)
+    - [Copenhagen](city)
+    - [Coral Springs](city)
+    - [Córdoba (Argentina)](city)
+    - [Córdoba (Spain)](city)
+    - [Corfu](city)
+    - [Corinth](city)
+    - [Cork](city)
+    - [Corpus Christi](city)
+    - [Corralejo](city)
+    - [Cortina d'Ampezzo](city)
+    - [Cosenza](city)
+    - [Costa Adeje](city)
+    - [Courchevel](city)
+    - [Courmayeur](city)
+    - [Coventry](city)
+    - [Covington](city)
+    - [Coyhaique](city)
+    - [Cozumel](city)
+    - [Crans-Montana](city)
+    - [Cremona](city)
+    - [Crotone](city)
+    - [Cruz Bay](city)
+    - [Cuneo](city)
+    - [Da Nang](city)
+    - [Dakar](city)
+    - [Dallas](city)
+    - [Dana Point](city)
+    - [Dar es Salaam](city)
+    - [Darmstadt](city)
+    - [Darwin](city)
+    - [Daugavpils](city)
+    - [Dauphin Island](city)
+    - [Davenport](city)
+    - [Davos](city)
+    - [Dayton](city)
+    - [Daytona Beach](city)
+    - [Deauville](city)
+    - [Decatur](city)
+    - [Deerfield Beach](city)
+    - [Del Mar](city)
+    - [Delft](city)
+    - [Delhi](city)
+    - [Delray Beach](city)
+    - [Den Bosch](city)
+    - [Denia](city)
+    - [Denton](city)
+    - [Denver](city)
+    - [Derby](city)
+    - [Derry](city)
+    - [Des Moines](city)
+    - [Detroit](city)
+    - [Didim](city)
+    - [Dieppe](city)
+    - [Dijon](city)
+    - [Douala](city)
+    - [Dodoma](city)
+    - [Doha](city)
+    - [Dolomiti Superski](city)
+    - [Dordrecht](city)
+    - [Dorfgastein](city)
+    - [Dortmund](city)
+    - [Dothan](city)
+    - [Douglas](city)
+    - [Dover (Delaware)](city)
+    - [Dover (New Hampshire)](city)
+    - [Dresden](city)
+    - [Dubai](city)
+    - [Dublin](city)
+    - [Dubrovnik](city)
+    - [Duisburg](city)
+    - [Duluth](city)
+    - [Dundalk](city)
+    - [Dundee](city)
+    - [Dunedin](city)
+    - [Dunkirk](city)
+    - [Durham (UK)](city)
+    - [Durham (U.S.)](city)
+    - [Düsseldorf](city)
+    - [Eastbourne](city)
+    - [Eau Claire](city)
+    - [Edgartown](city)
+    - [Edinburgh](city)
+    - [Edmonton](city)
+    - [Eilat](city)
+    - [Eindhoven](city)
+    - [El Paso](city)
+    - [Elche](city)
+    - [Elizabeth](city)
+    - [Elko](city)
+    - [Ellmau](city)
+    - [Elm](city)
+    - [Empuriabrava](city)
+    - [Encinitas](city)
+    - [Engelberg](city)
+    - [Enna](city)
+    - [Enschede](city)
+    - [Épinal](city)
+    - [Erfurt](city)
+    - [Erie](city)
+    - [Erlangen](city)
+    - [Esbjerg](city)
+    - [Espace Killy](city)
+    - [Essaouira](city)
+    - [Essen](city)
+    - [Estepona](city)
+    - [Eugene](city)
+    - [Eureka](city)
+    - [Evansville](city)
+    - [Everett](city)
+    - [Exeter](city)
+    - [Èze](city)
+    - [Faenza](city)
+    - [Fairbanks](city)
+    - [Falmouth](city)
+    - [Famagusta](city)
+    - [Fano](city)
+    - [Fargo](city)
+    - [Faro](city)
+    - [Fayetteville (North Carolina)](city)
+    - [Fayetteville (Arkansas)](city)
+    - [Fermo](city)
+    - [Fernandina Beach](city)
+    - [Ferrara](city)
+    - [Fethiye](city)
+    - [Fez](city)
+    - [Fieberbrunn](city)
+    - [Filzmoos](city)
+    - [Finale Ligure](city)
+    - [Fiumicino](city)
+    - [Flagstaff](city)
+    - [Flaine](city)
+    - [Flint](city)
+    - [Florence](city)
+    - [Florence (Alabama)](city)
+    - [Foggia](city)
+    - [Folgarida](city)
+    - [Fontana](city)
+    - [Forlì](city)
+    - [Fort Collins](city)
+    - [Fort Lauderdale](city)
+    - [Fort Myers](city)
+    - [Fort Smith](city)
+    - [Fort Wayne](city)
+    - [Fort Worth](city)
+    - [Fort-de-France](city)
+    - [Forte dei Marmi](city)
+    - [Foz do Iguaçu](city)
+    - [Frankfort](city)
+    - [Frankfurt am Main](city)
+    - [Franklin](city)
+    - [Frederick](city)
+    - [Fredericton](city)
+    - [Frederiksted](city)
+    - [Freeport](city)
+    - [Freiburg](city)
+    - [Fremont](city)
+    - [Fresno](city)
+    - [Fribourg](city)
+    - [Frosinone](city)
+    - [Fuengirola](city)
+    - [Fujairah](city)
+    - [Fukuoka](city)
+    - [Funchal](city)
+    - [Gainesville](city)
+    - [Galtür](city)
+    - [Galway](city)
+    - [Garden Grove](city)
+    - [Garland](city)
+    - [Gastonia](city)
+    - [Gatineau](city)
+    - [Gdansk](city)
+    - [Gdynia](city)
+    - [Geelong](city)
+    - [Gelsenkirchen](city)
+    - [Geneva](city)
+    - [Genoa](city)
+    - [George Town (Cayman Islands)](city)
+    - [George Town (Malaysia)](city)
+    - [Ghent](city)
+    - [Gijón](city)
+    - [Gilbert](city)
+    - [Girona](city)
+    - [Gitega](city)
+    - [Glasgow](city)
+    - [Glendale (Arizona)](city)
+    - [Glendale (California)](city)
+    - [Gloucester](city)
+    - [Gold Coast](city)
+    - [Gorizia](city)
+    - [Dachstein-West](city)
+    - [Gothenburg](city)
+    - [Göttingen](city)
+    - [Gouda](city)
+    - [Granada](city)
+    - [Grand Forks](city)
+    - [Grand Island](city)
+    - [Grand Junction](city)
+    - [Grand Prairie](city)
+    - [Grand Rapids](city)
+    - [Granville](city)
+    - [Grasse](city)
+    - [Graz](city)
+    - [Great Falls](city)
+    - [Greeley](city)
+    - [Green Bay](city)
+    - [Greensboro](city)
+    - [Greenville NC](city)
+    - [Greenville SC](city)
+    - [Grenoble](city)
+    - [Grindelwald](city)
+    - [Groningen](city)
+    - [Grossarl](city)
+    - [Grosseto](city)
+    - [Gstaad](city)
+    - [Guadalajara](city)
+    - [Guangzhou](city)
+    - [Guimarães](city)
+    - [Gulf Shores](city)
+    - [Gulfport](city)
+    - [Gustavia](city)
+    - [Haarlem](city)
+    - [Haifa](city)
+    - [Halifax](city)
+    - [Halle](city)
+    - [Hamburg](city)
+    - [Hamilton (Canada)](city)
+    - [Hamilton (New Zealand)](city)
+    - [Hamilton (Bermuda)](city)
+    - [Hampton](city)
+    - [Hanford](city)
+    - [Hangzhou](city)
+    - [Hannover](city)
+    - [Hanoi](city)
+    - [Harrisburg](city)
+    - [Hartford](city)
+    - [Hasselt](city)
+    - [Hastings](city)
+    - [Hat Yai](city)
+    - [Hattiesburg](city)
+    - [Havana](city)
+    - [Heidelberg](city)
+    - [Heilbronn](city)
+    - [Heiligenblut](city)
+    - [Helena](city)
+    - [Helsinki](city)
+    - [Henderson](city)
+    - [Heraklion](city)
+    - [Herceg Novi](city)
+    - [Hereford](city)
+    - [Hermosa Beach](city)
+    - [Hervey Bay](city)
+    - [Hialeah](city)
+    - [Hillsboro](city)
+    - [Hinterglemm](city)
+    - [Hinterstoder](city)
+    - [Hiroshima](city)
+    - [Hoi An](city)
+    - [Hobart](city)
+    - [Ho Chi Minh City](city)
+    - [Hollywood (Florida)](city)
+    - [Honfleur](city)
+    - [Hong Kong](city)
+    - [Honiara](city)
+    - [Honolulu](city)
+    - [Horsens](city)
+    - [Hot Springs](city)
+    - [Houston](city)
+    - [Hua Hin](city)
+    - [Hue](city)
+    - [Huntington](city)
+    - [Huntington Beach](city)
+    - [Huntsville](city)
+    - [Hvar](city)
+    - [Hyères](city)
+    - [Ibiza Town](city)
+    - [Imola](city)
+    - [Imperia](city)
+    - [Inca](city)
+    - [Indianapolis](city)
+    - [Ingolstadt](city)
+    - [Innsbruck](city)
+    - [Interlaken](city)
+    - [Inverness](city)
+    - [Ioannina](city)
+    - [Irvine](city)
+    - [Irving](city)
+    - [Ischgl](city)
+    - [Isernia](city)
+    - [Lahore](city)
+    - [Islamorada](city)
+    - [Istanbul](city)
+    - [İzmir](city)
+    - [Izola](city)
+    - [Jackson](city)
+    - [Jackson (Tennessee)](city)
+    - [Jacksonville](city)
+    - [Jaipur](city)
+    - [Jefferson City](city)
+    - [Jena](city)
+    - [Jerez de la Frontera](city)
+    - [Jersey City](city)
+    - [Jerusalem](city)
+    - [Johannesburg](city)
+    - [Johnson City](city)
+    - [Joinville](city)
+    - [Jonesboro](city)
+    - [Juan-les-Pins](city)
+    - [Juiz de Fora](city)
+    - [Juneau](city)
+    - [Jungfrau](city)
+    - [Jupiter](city)
+    - [Jūrmala](city)
+    - [Kalamata](city)
+    - [Kalamazoo](city)
+    - [Kampala](city)
+    - [Kanchanaburi](city)
+    - [Kansas City](city)
+    - [Kansas City (Kansas)](city)
+    - [Kappl](city)
+    - [Kaprun](city)
+    - [Islamabad](city)
+    - [Karlovy Vary](city)
+    - [Karlsruhe](city)
+    - [Kassel](city)
+    - [Kastoria](city)
+    - [Kathmandu](city)
+    - [Kaunas](city)
+    - [Kavala](city)
+    - [Kearney](city)
+    - [Keene](city)
+    - [Kemer](city)
+    - [Kenosha](city)
+    - [Key Largo](city)
+    - [Key West](city)
+    - [Khao Lak](city)
+    - [Kiel](city)
+    - [Kilkenny](city)
+    - [Kingston](city)
+    - [Kingston upon Hull](city)
+    - [Kingstown](city)
+    - [Kissimmee](city)
+    - [Kitzbühel](city)
+    - [Klagenfurt](city)
+    - [Klaipėda](city)
+    - [Knoxville](city)
+    - [Kobe](city)
+    - [Koblenz](city)
+    - [Kolding](city)
+    - [Kolkata](city)
+    - [Komotini](city)
+    - [Koper](city)
+    - [Kos](city)
+    - [Košice](city)
+    - [Kotor](city)
+    - [Krabi](city)
+    - [Krakow](city)
+    - [Kralendijk](city)
+    - [Krefeld](city)
+    - [Kuah](city)
+    - [Kuala Lumpur](city)
+    - [Kuşadası](city)
+    - [Kutná Hora](city)
+    - [Kyoto](city)
+    - [Kyrenia](city)
+    - [La Ciotat](city)
+    - [La Clusaz](city)
+    - [La Laguna](city)
+    - [La Maddalena](city)
+    - [La Manga](city)
+    - [La Plagne](city)
+    - [La Plata](city)
+    - [La Rochelle](city)
+    - [La Romana](city)
+    - [La Serena](city)
+    - [La Spezia](city)
+    - [La Thuile](city)
+    - [Laax](city)
+    - [Lafayette (Indiana)](city)
+    - [Lafayette (Louisiana)](city)
+    - [Lagos](city)
+    - [Laguna Beach](city)
+    - [Karachi](city)
+    - [Lakeland](city)
+    - [Lalitpur](city)
+    - [Lamezia Terme](city)
+    - [Lancaster](city)
+    - [Lancaster (U.S.)](city)
+    - [Lansing](city)
+    - [L'Aquila](city)
+    - [Laredo](city)
+    - [Largo](city)
+    - [Larnaca](city)
+    - [Las Cruces](city)
+    - [Las Palmas](city)
+    - [Las Vegas](city)
+    - [Latina](city)
+    - [Lausanne](city)
+    - [Laval](city)
+    - [Lawton](city)
+    - [Layton](city)
+    - [Le Havre](city)
+    - [Le Lavandou](city)
+    - [Le Mans](city)
+    - [Lecce](city)
+    - [Lecco](city)
+    - [Lech](city)
+    - [Leeds](city)
+    - [Legnano](city)
+    - [Leicester](city)
+    - [Leiden](city)
+    - [Leipzig](city)
+    - [Leogang](city)
+    - [Les Arcs](city)
+    - [Les Deux Alpes](city)
+    - [Les Gets](city)
+    - [Les Houches](city)
+    - [Les Menuires](city)
+    - [Leuven](city)
+    - [Lexington](city)
+    - [Liberec](city)
+    - [Libreville](city)
+    - [Lichfield](city)
+    - [Liège](city)
+    - [Lienz](city)
+    - [Liepāja](city)
+    - [Lille](city)
+    - [Limassol](city)
+    - [Limerick](city)
+    - [Limoges](city)
+    - [Lincoln](city)
+    - [Lincoln](city)
+    - [Lindos](city)
+    - [Linz](city)
+    - [Lisbon](city)
+    - [Lisburn](city)
+    - [Little Rock](city)
+    - [Liverpool](city)
+    - [Livigno](city)
+    - [Livorno](city)
+    - [Ljubljana](city)
+    - [Lloret de Mar](city)
+    - [Loano](city)
+    - [Locarno](city)
+    - [Lodi](city)
+    - [Lodz](city)
+    - [Logan](city)
+    - [Logroño](city)
+    - [London (Canada)](city)
+    - [London (UK)](city)
+    - [Londrina](city)
+    - [Long Beach](city)
+    - [Long Beach (New York)](city)
+    - [Long Branch](city)
+    - [Longview (Texas)](city)
+    - [Longview (Washington)](city)
+    - [Lorain](city)
+    - [Los Alamos](city)
+    - [Los Angeles](city)
+    - [Los Cabos](city)
+    - [Los Cristianos](city)
+    - [Louisville](city)
+    - [Lourdes](city)
+    - [Loutraki](city)
+    - [Louvain-la-Neuve](city)
+    - [Lowell](city)
+    - [Luanda](city)
+    - [Lubbock](city)
+    - [Lübeck](city)
+    - [Lublin](city)
+    - [Lucca](city)
+    - [Lucerne](city)
+    - [Lugano](city)
+    - [Lund](city)
+    - [Luxembourg](city)
+    - [Lyon](city)
+    - [Maastricht](city)
+    - [Macerata](city)
+    - [Macon](city)
+    - [Madera](city)
+    - [Madison](city)
+    - [Madonna di Campiglio](city)
+    - [Madrid](city)
+    - [Magaluf](city)
+    - [Magdeburg](city)
+    - [Mahón](city)
+    - [Mainz](city)
+    - [Makarska](city)
+    - [Malaga](city)
+    - [Malia](city)
+    - [Malibu](city)
+    - [Malmö](city)
+    - [Manacor](city)
+    - [Manchester (UK)](city)
+    - [Manchester (U.S.)](city)
+    - [Manhattan Beach](city)
+    - [Mannheim](city)
+    - [Manosque](city)
+    - [Mantua](city)
+    - [Maputo](city)
+    - [Mar del Plata](city)
+    - [Marathon](city)
+    - [Marbella](city)
+    - [Maria Alm](city)
+    - [Maribor](city)
+    - [Marigot](city)
+    - [Markham](city)
+    - [Marmaris](city)
+    - [Maroochydore](city)
+    - [Marquette](city)
+    - [Marrakesh](city)
+    - [Marsala](city)
+    - [Marseille](city)
+    - [Martigues](city)
+    - [Maspalomas](city)
+    - [Massa](city)
+    - [Matera](city)
+    - [Mayrhofen](city)
+    - [Mazara del Vallo](city)
+    - [McKinney](city)
+    - [Mechelen](city)
+    - [Medford](city)
+    - [Megève](city)
+    - [Melbourne (Australia)](city)
+    - [Melbourne (U.S.)](city)
+    - [Memphis](city)
+    - [Menton](city)
+    - [Merano](city)
+    - [Merced](city)
+    - [Meribel](city)
+    - [Mérida](city)
+    - [Meridian](city)
+    - [Mesa](city)
+    - [Messina](city)
+    - [Mestre](city)
+    - [Metz](city)
+    - [Mexico City](city)
+    - [Miami](city)
+    - [Middelburg](city)
+    - [Midland](city)
+    - [Mijas](city)
+    - [Milan](city)
+    - [Milford](city)
+    - [Millau](city)
+    - [Milwaukee](city)
+    - [Mindelo](city)
+    - [Minneapolis](city)
+    - [Minot](city)
+    - [Miramar](city)
+    - [Mishawaka](city)
+    - [Mississauga](city)
+    - [Missoula](city)
+    - [Moab](city)
+    - [Mobile](city)
+    - [Modena](city)
+    - [Modesto](city)
+    - [Modica](city)
+    - [Moena](city)
+    - [Mogi das Cruzes](city)
+    - [Mombasa](city)
+    - [Monaco City](city)
+    - [Monrovia](city)
+    - [Mons](city)
+    - [Monte Carlo](city)
+    - [Monte Rosa](city)
+    - [Montego Bay](city)
+    - [Montepulciano](city)
+    - [Monterey](city)
+    - [Montgomery](city)
+    - [Montluçon](city)
+    - [Montpelier](city)
+    - [Montpellier](city)
+    - [Montreal](city)
+    - [Montreux](city)
+    - [Monza](city)
+    - [Moraira](city)
+    - [Moreno Valley](city)
+    - [Morgantown](city)
+    - [Morzine](city)
+    - [Moscow](city)
+    - [Mount Vernon](city)
+    - [Mountain View](city)
+    - [Moutier](city)
+    - [Mulhouse](city)
+    - [Mumbai](city)
+    - [Munich](city)
+    - [Münster](city)
+    - [Murcia](city)
+    - [Murfreesboro](city)
+    - [Murter](city)
+    - [Mykonos](city)
+    - [Mytilene](city)
+    - [Nafplio](city)
+    - [Nagoya](city)
+    - [Nags Head](city)
+    - [Nairobi](city)
+    - [Namur](city)
+    - [Nancy](city)
+    - [Nantes](city)
+    - [Napa](city)
+    - [Naples (Italy)](city)
+    - [Naples (U.S.)](city)
+    - [Narbonne](city)
+    - [Narva](city)
+    - [Nashua](city)
+    - [Nashville](city)
+    - [Nassau](city)
+    - [Naxos](city)
+    - [Nazareth](city)
+    - [N'Djamena](city)
+    - [Negril](city)
+    - [Nelson](city)
+    - [Nerja](city)
+    - [Netanya](city)
+    - [Nevers](city)
+    - [New Haven](city)
+    - [New London](city)
+    - [New Orleans](city)
+    - [New Smyrna Beach](city)
+    - [New York City](city)
+    - [Newark](city)
+    - [Newcastle (Australia)](city)
+    - [Newcastle (UK)](city)
+    - [Newport (UK)](city)
+    - [Newport (Rhode Island)](city)
+    - [Newport (Vermont)](city)
+    - [Newport Beach](city)
+    - [Newport News](city)
+    - [Newry](city)
+    - [Nha Trang](city)
+    - [Niagara Falls](city)
+    - [Nice](city)
+    - [Nicosia](city)
+    - [Nijmegen](city)
+    - [Nimes](city)
+    - [Niort](city)
+    - [Noosa Heads](city)
+    - [Norfolk](city)
+    - [Normal](city)
+    - [Norman](city)
+    - [North Las Vegas](city)
+    - [North Port](city)
+    - [Norwalk](city)
+    - [Norwich](city)
+    - [Nottingham](city)
+    - [Novara](city)
+    - [Novigrad](city)
+    - [Nuoro](city)
+    - [Nürnberg](city)
+    - [Nur-Sultan](city)
+    - [Nyon](city)
+    - [Oakland](city)
+    - [Oaxaca](city)
+    - [Obergurgl](city)
+    - [Oberhausen](city)
+    - [Ocala](city)
+    - [Ocean City](city)
+    - [Ocean Grove](city)
+    - [Oceanside](city)
+    - [Ocho Rios](city)
+    - [Odense](city)
+    - [Odessa](city)
+    - [Ogden](city)
+    - [Oia](city)
+    - [Oklahoma City](city)
+    - [Olbia](city)
+    - [Oldenburg](city)
+    - [Olomouc](city)
+    - [Olympia](city)
+    - [Omaha](city)
+    - [Opatija](city)
+    - [Orange Beach](city)
+    - [Oranjestad (Aruba)](city)
+    - [Oranjestad (Sint Eustatius)](city)
+    - [Orem](city)
+    - [Oristano](city)
+    - [Orlando](city)
+    - [Orléans](city)
+    - [Ortisei](city)
+    - [Osaka](city)
+    - [Oshkosh](city)
+    - [Oslo](city)
+    - [Osnabrück](city)
+    - [Ostrava](city)
+    - [Ottawa](city)
+    - [Ouagadougou](city)
+    - [Oulu](city)
+    - [Overland Park](city)
+    - [Oviedo](city)
+    - [Owensboro](city)
+    - [Oxford](city)
+    - [Oxnard](city)
+    - [Paderborn](city)
+    - [Padova](city)
+    - [Palanga](city)
+    - [Palavas-les-Flots](city)
+    - [Palermo](city)
+    - [Palm Bay](city)
+    - [Palm Beach](city)
+    - [Palm Springs](city)
+    - [Palma de Mallorca](city)
+    - [Palma Nova](city)
+    - [Palmetto](city)
+    - [Palo Alto](city)
+    - [Pamplona](city)
+    - [Panama City (U.S.)](city)
+    - [Paphos](city)
+    - [Paradiski](city)
+    - [Paralia](city)
+    - [Parikia](city)
+    - [Paris](city)
+    - [Parkersburg](city)
+    - [Parma](city)
+    - [Pärnu](city)
+    - [Pasadena](city)
+    - [Passo del Tonale](city)
+    - [Passo Rolle](city)
+    - [Paterson](city)
+    - [Patras](city)
+    - [Pattaya](city)
+    - [Pau](city)
+    - [Pavia](city)
+    - [Peel](city)
+    - [Peguera](city)
+    - [Pembroke Pines](city)
+    - [Pensacola](city)
+    - [Peoria](city)
+    - [Perast](city)
+    - [Périgueux](city)
+    - [Perpignan](city)
+    - [Perros-Guirec](city)
+    - [Perth (Australia)](city)
+    - [Perth (UK)](city)
+    - [Perugia](city)
+    - [Pesaro](city)
+    - [Pescara](city)
+    - [Pescasseroli](city)
+    - [Petah Tikva](city)
+    - [Peterborough](city)
+    - [Petrovac](city)
+    - [Pforzheim](city)
+    - [Phang Nga](city)
+    - [Phetchabun](city)
+    - [Philadelphia](city)
+    - [Philipsburg](city)
+    - [Phoenix](city)
+    - [Phuket City](city)
+    - [Piacenza](city)
+    - [Pierre](city)
+    - [Pine Bluff](city)
+    - [Piraeus](city)
+    - [Piran](city)
+    - [Pisa](city)
+    - [Pistoia](city)
+    - [Pittsburgh](city)
+    - [Placencia](city)
+    - [Plano](city)
+    - [Playa Blanca](city)
+    - [Playa de las Américas](city)
+    - [Playa del Carmen](city)
+    - [Plovdiv](city)
+    - [Plymouth](city)
+    - [Plzeň](city)
+    - [Podgorica](city)
+    - [Pointe-à-Pitre](city)
+    - [Poitiers](city)
+    - [Pollença](city)
+    - [Pompano Beach](city)
+    - [Pontevedra](city)
+    - [Pordenone](city)
+    - [Poreč](city)
+    - [Port Angeles](city)
+    - [Port Charlotte](city)
+    - [Port Louis](city)
+    - [Port of Spain](city)
+    - [Port St. Lucie](city)
+    - [Port Townsend](city)
+    - [Port-au-Prince](city)
+    - [Portimão](city)
+    - [Portland (Oregon)](city)
+    - [Portland (Maine)](city)
+    - [Porto](city)
+    - [Porto Cervo](city)
+    - [Porto Cristo](city)
+    - [Porto Torres](city)
+    - [Portocolom](city)
+    - [Portofino](city)
+    - [Portorož](city)
+    - [Porto-Novo](city)
+    - [Porto-Vecchio](city)
+    - [Portsmouth (UK)](city)
+    - [Portsmouth (U.S.)](city)
+    - [Positano](city)
+    - [Potenza](city)
+    - [Potsdam](city)
+    - [Poznan](city)
+    - [Pozzuoli](city)
+    - [Prague](city)
+    - [Praia](city)
+    - [Praia da Rocha](city)
+    - [Prato](city)
+    - [Preston](city)
+    - [Pretoria](city)
+    - [Propriano](city)
+    - [Protaras](city)
+    - [Providence](city)
+    - [Provo](city)
+    - [Pueblo](city)
+    - [Puerto de la Cruz](city)
+    - [Puerto Plata](city)
+    - [Puerto Rico de Gran Canaria](city)
+    - [Puerto Vallarta](city)
+    - [Pula](city)
+    - [Punta Arenas](city)
+    - [Punta Cana](city)
+    - [Punta Gorda](city)
+    - [Pyeongchang](city)
+    - [Quarteira](city)
+    - [Quebec](city)
+    - [Quimper](city)
+    - [Rabat](city)
+    - [Racine](city)
+    - [Ragusa](city)
+    - [Railay Beach](city)
+    - [Raleigh](city)
+    - [Ramsey](city)
+    - [Rancho Cucamonga](city)
+    - [Randers](city)
+    - [Rapallo](city)
+    - [Rapid City](city)
+    - [Ras al-Khaimah](city)
+    - [Ravello](city)
+    - [Ravenna](city)
+    - [Rayong](city)
+    - [Reading](city)
+    - [Redding](city)
+    - [Redondo Beach](city)
+    - [Regensburg](city)
+    - [Reggio Calabria](city)
+    - [Reggio Emilia](city)
+    - [Regina](city)
+    - [Rehovot](city)
+    - [Reims](city)
+    - [Rennes](city)
+    - [Reno](city)
+    - [Rethymno](city)
+    - [Reus](city)
+    - [Reutlingen](city)
+    - [Reykjavik](city)
+    - [Rhodes](city)
+    - [Richmond](city)
+    - [Rieti](city)
+    - [Riga](city)
+    - [Rijeka](city)
+    - [Rimini](city)
+    - [Rio de Janeiro](city)
+    - [Riomaggiore](city)
+    - [Rishon LeZion](city)
+    - [Riverside](city)
+    - [Riviera Maya](city)
+    - [Road Town](city)
+    - [Roanoke](city)
+    - [Rochester (Minnesota)](city)
+    - [Rochester (New York)](city)
+    - [Rock Hill](city)
+    - [Rockford](city)
+    - [Rockville](city)
+    - [Rodez](city)
+    - [Rogers](city)
+    - [Rome](city)
+    - [Ronda](city)
+    - [Rosario](city)
+    - [Roseau](city)
+    - [Roskilde](city)
+    - [Rostock](city)
+    - [Roswell](city)
+    - [Rotterdam](city)
+    - [Roubaix](city)
+    - [Rouen](city)
+    - [Rovigo](city)
+    - [Rovinj](city)
+    - [Rutland](city)
+    - [Sa Coma](city)
+    - [Saalbach](city)
+    - [Saarbrücken](city)
+    - [Saas-Fee](city)
+    - [Sacramento](city)
+    - [Saint Paul](city)
+    - [Saint Petersburg](city)
+    - [Saint-Brieuc](city)
+    - [Sainte-Maxime](city)
+    - [Saint-Étienne](city)
+    - [Saint-Jean-Cap-Ferrat](city)
+    - [Saint-Malo](city)
+    - [Saint-Tropez](city)
+    - [Salamanca](city)
+    - [Salem (Oregon)](city)
+    - [Salem (Massachusetts)](city)
+    - [Salerno](city)
+    - [Salinas](city)
+    - [Salisbury](city)
+    - [Salou](city)
+    - [Salt Lake City](city)
+    - [Salta](city)
+    - [Salvador](city)
+    - [Salzburg](city)
+    - [Samaná](city)
+    - [San Angelo](city)
+    - [San Antonio](city)
+    - [San Bernardino](city)
+    - [San Clemente](city)
+    - [San Diego](city)
+    - [San Francisco](city)
+    - [San Jose](city)
+    - [San Juan](city)
+    - [San Marino](city)
+    - [San Mateo](city)
+    - [San Pedro](city)
+    - [San Pedro de Atacama](city)
+    - [San Rafael](city)
+    - [San Sebastián](city)
+    - [Sanford](city)
+    - [Sanremo](city)
+    - [Sant Antoni de Portmany](city)
+    - [Santa Ana](city)
+    - [Santa Barbara](city)
+    - [Santa Clara](city)
+    - [Santa Clarita](city)
+    - [Santa Cruz](city)
+    - [Santa Cruz de Tenerife](city)
+    - [Santa Eulària des Riu](city)
+    - [Santa Fe](city)
+    - [Santa Margherita Ligure](city)
+    - [Santa Maria](city)
+    - [Santa Monica](city)
+    - [Santa Pola](city)
+    - [Santa Ponsa](city)
+    - [Santa Rosa](city)
+    - [Santander](city)
+    - [Santiago (Chile)](city)
+    - [Santiago (Dominican Rep.)](city)
+    - [Santiago de Compostela](city)
+    - [Santo Domingo](city)
+    - [Sao Paulo](city)
+    - [Sapporo](city)
+    - [Sarajevo](city)
+    - [Sarasota](city)
+    - [Saratoga Springs](city)
+    - [Saskatoon](city)
+    - [Sassari](city)
+    - [Saumur](city)
+    - [Savannah](city)
+    - [Savona](city)
+    - [Schaffhausen](city)
+    - [Schenectady](city)
+    - [Schladming](city)
+    - [Scottsdale](city)
+    - [Scranton](city)
+    - [Sea Isle City](city)
+    - [Seal Beach](city)
+    - [Seaside](city)
+    - [Seattle](city)
+    - [Sedona](city)
+    - [Seefeld](city)
+    - [Segovia](city)
+    - [Seoul](city)
+    - [Serre Chevalier](city)
+    - [Sète](city)
+    - [Seville](city)
+    - [Shanghai](city)
+    - [Sharjah](city)
+    - [Sheffield](city)
+    - [Shenzhen](city)
+    - [Shreveport](city)
+    - [Šiauliai](city)
+    - [Šibenik](city)
+    - [Side](city)
+    - [Siegen](city)
+    - [Siena](city)
+    - [Singapore](city)
+    - [Sion](city)
+    - [Sioux City](city)
+    - [Sioux Falls](city)
+    - [Sitges](city)
+    - [Skiathos](city)
+    - [Sofia](city)
+    - [Sölden](city)
+    - [Söll](city)
+    - [Soller](city)
+    - [Solothurn](city)
+    - [Sondrio](city)
+    - [Sopot](city)
+    - [Sorocaba](city)
+    - [Sorrento](city)
+    - [South Bend](city)
+    - [Southampton](city)
+    - [Split](city)
+    - [Spokane](city)
+    - [Springdale](city)
+    - [Springfield (Illinois)](city)
+    - [Springfield (Massachusetts)](city)
+    - [Springfield (Missouri)](city)
+    - [Springfield (Oregon)](city)
+    - [St Albans](city)
+    - [St George's (Bermuda)](city)
+    - [St. Albans](city)
+    - [St. Anton](city)
+    - [St. Augustine](city)
+    - [St. Cloud](city)
+    - [St. Gallen](city)
+    - [St. George](city)
+    - [St. George's (Grenada)](city)
+    - [St. John's (Canada)](city)
+    - [St. John's (Antigua and Barbuda)](city)
+    - [St. Louis](city)
+    - [St. Moritz](city)
+    - [St. Petersburg (U.S.)](city)
+    - [Stanford](city)
+    - [Stavanger](city)
+    - [Stillwater](city)
+    - [Stirling](city)
+    - [Stockholm](city)
+    - [Stockton](city)
+    - [Stoke-on-Trent](city)
+    - [Stone Harbor](city)
+    - [Strasbourg](city)
+    - [Stuttgart](city)
+    - [Sukhothai](city)
+    - [Sumter](city)
+    - [Sunderland](city)
+    - [Sunnyvale](city)
+    - [Sunshine Coast](city)
+    - [Superior](city)
+    - [Surrey](city)
+    - [Sveti Stefan](city)
+    - [Swansea](city)
+    - [Sydney](city)
+    - [Syracuse (Italy)](city)
+    - [Syracuse (U.S.)](city)
+    - [Szczecin](city)
+    - [Tacoma](city)
+    - [Taipei](city)
+    - [Tallahassee](city)
+    - [Tallinn](city)
+    - [Tampa](city)
+    - [Tampere](city)
+    - [Tamworth](city)
+    - [Tangier](city)
+    - [Taormina](city)
+    - [Taranto](city)
+    - [Tarifa](city)
+    - [Tarragona](city)
+    - [Tartu](city)
+    - [Tauplitz](city)
+    - [Tauranga](city)
+    - [Tavira](city)
+    - [Tbilisi](city)
+    - [Tel Aviv](city)
+    - [Temecula](city)
+    - [Tempe](city)
+    - [Teramo](city)
+    - [Terni](city)
+    - [Texarkana AR](city)
+    - [Texarkana TX](city)
+    - [The Bottom](city)
+    - [The Hague](city)
+    - [The Valley](city)
+    - [The Woodlands](city)
+    - [Thessaloniki](city)
+    - [Tignes](city)
+    - [Tijuana](city)
+    - [Tilburg](city)
+    - [Tinos](city)
+    - [Tivat](city)
+    - [Tivoli](city)
+    - [Tokyo](city)
+    - [Toledo (Spain)](city)
+    - [Toledo (U.S.)](city)
+    - [Tooele](city)
+    - [Toowoomba](city)
+    - [Topeka](city)
+    - [Toronto](city)
+    - [Torre del Greco](city)
+    - [Torre del Mar](city)
+    - [Torremolinos](city)
+    - [Torrevieja](city)
+    - [Toruń](city)
+    - [Tossa de Mar](city)
+    - [Toulon](city)
+    - [Toulouse](city)
+    - [Tours](city)
+    - [Townsville](city)
+    - [Trani](city)
+    - [Trapani](city)
+    - [Trento](city)
+    - [Trenton](city)
+    - [Treviso](city)
+    - [Trier](city)
+    - [Trieste](city)
+    - [Trogir](city)
+    - [Tromsø](city)
+    - [Trondheim](city)
+    - [Trouville-sur-Mer](city)
+    - [Troy](city)
+    - [Troyes](city)
+    - [Tucson](city)
+    - [Tui](city)
+    - [Tulsa](city)
+    - [Tulum](city)
+    - [Turin](city)
+    - [Turku](city)
+    - [Tuscaloosa](city)
+    - [Twin Falls](city)
+    - [Two Harbors](city)
+    - [Tybee Island](city)
+    - [Tyler](city)
+    - [Udine](city)
+    - [Udon Thani](city)
+    - [Ukiah](city)
+    - [Ulcinj](city)
+    - [Ulm](city)
+    - [Umag](city)
+    - [Uppsala](city)
+    - [Urbino](city)
+    - [Ushuaia](city)
+    - [Utica](city)
+    - [Utrecht](city)
+    - [Vaduz](city)
+    - [Val d’Isère](city)
+    - [Val di Fassa](city)
+    - [Val Gardena](city)
+    - [Val Thorens](city)
+    - [Valence](city)
+    - [Valencia](city)
+    - [Valladolid](city)
+    - [Valle Isarco](city)
+    - [Valletta](city)
+    - [Valparaíso](city)
+    - [Vancouver (Canada)](city)
+    - [Vancouver (U.S.)](city)
+    - [Varazze](city)
+    - [Varese](city)
+    - [Varna](city)
+    - [Vaughan](city)
+    - [Vejle](city)
+    - [Venice (Italy)](city)
+    - [Venice (U.S.)](city)
+    - [Ventimiglia](city)
+    - [Ventspils](city)
+    - [Ventura](city)
+    - [Verbania](city)
+    - [Verbier](city)
+    - [Vercelli](city)
+    - [Vero Beach](city)
+    - [Verona](city)
+    - [Versailles](city)
+    - [Vevey](city)
+    - [Viareggio](city)
+    - [Vibo Valentia](city)
+    - [Viborg](city)
+    - [Vicenza](city)
+    - [Vichy](city)
+    - [Victoria](city)
+    - [Vienna](city)
+    - [Vigo](city)
+    - [Vilamoura](city)
+    - [Villach](city)
+    - [Villefranche-sur-Mer](city)
+    - [Vilnius](city)
+    - [Viña del Mar](city)
+    - [Virginia Beach](city)
+    - [Visalia](city)
+    - [Viterbo](city)
+    - [Vitoria-Gasteiz](city)
+    - [Volos](city)
+    - [Vrsar](city)
+    - [Waco](city)
+    - [Wakefield](city)
+    - [Warsaw](city)
+    - [Warth](city)
+    - [Washington D.C.](city)
+    - [Waterford](city)
+    - [Watertown](city)
+    - [Waukegan](city)
+    - [Waukesha](city)
+    - [Wellington (New Zealand)](city)
+    - [Wellington (U.S.)](city)
+    - [Wengen](city)
+    - [West Lafayette](city)
+    - [West Palm Beach](city)
+    - [Westendorf](city)
+    - [Westminster](city)
+    - [Weston](city)
+    - [Wheeling](city)
+    - [White Plains](city)
+    - [Wichita](city)
+    - [Wichita Falls](city)
+    - [Wiesbaden](city)
+    - [Wildwood](city)
+    - [Wilkes-Barre](city)
+    - [Willemstad](city)
+    - [Wilmington (Delaware)](city)
+    - [Wilmington (North Carolina)](city)
+    - [Winchester](city)
+    - [Windsor](city)
+    - [Winnipeg](city)
+    - [Winston–Salem](city)
+    - [Winterthur](city)
+    - [Wolfsburg](city)
+    - [Wollongong](city)
+    - [Wolverhampton](city)
+    - [Woodburn](city)
+    - [Worcester (UK)](city)
+    - [Worcester (U.S.)](city)
+    - [Worthing](city)
+    - [Wroclaw](city)
+    - [Wuppertal](city)
+    - [Würzburg](city)
+    - [Yakima](city)
+    - [Yaoundé](city)
+    - [Yokohama](city)
+    - [Yonkers](city)
+    - [York (UK)](city)
+    - [York (U.S.)](city)
+    - [Youngstown](city)
+    - [Yuma](city)
+    - [Zadar](city)
+    - [Zagreb](city)
+    - [Zakopane](city)
+    - [Zanzibar](city)
+    - [Zaragoza](city)
+    - [Zell am See](city)
+    - [Zell am Ziller](city)
+    - [Zermatt](city)
+    - [Zug](city)
+    - [Zurich](city)
+    - [Zwolle](city)
