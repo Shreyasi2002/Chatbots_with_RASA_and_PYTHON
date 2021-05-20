@@ -29,6 +29,15 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_welcome:
+  - text: "You are the most welcome :)"
+
+  utter_ask_location:
+  - text: "May I know your location? "
+
+  utter_finding_time_zone:
+  - text: "Just give me a second, I am looking it up ;) "
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
